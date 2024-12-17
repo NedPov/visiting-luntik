@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>В гостях у Лунтика</title>
+   
+    <link rel="stylesheet" href="visiting-luntik.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>В гостях у лунтика</h1>
+        <div class="specification">Приветствую!!!<br>
+            Сегодня тебе предстоит пройти ряд заданий и головоломок, которые помогут тебе стать умнее.
+            Удачи!
+        </div>
+
+        <div class="task_1 task-wrap">
+            <h2>Угадай цвет</h2>
+            <div class="task_1_circle"></div>
+            <div class="response_wrapp">
+                <div class="response_1">Желтый</div>
+                <div class="response_2">Красный</div>
+                <div class="response_3">Зеленый</div>
+            </div>
+        </div>
+
+        <div class="task_2 task-wrap">
+            <h2>Выбери поговорку и введи продолжение</h2>
+            <div class="div-wrapp-container">
+                <div class="div-wrapp one ">
+                    <div class="saying">Век живи, ...</div> <!-- век учись -->
+                    <div class="saying">Один в поле ...</div> <!-- не воин -->
+                    <div class="saying">Когда я ем, ...</div> <!-- я глух и нем -->
+                </div>
+                <div class="div-wrapp two">
+                    <div class="saying">Закончил дело, ...</div> <!-- гуляй смело -->
+                    <div class="saying">Тише едешь - ...</div> <!--дальше будешь  -->
+                    <div class="saying">Повторение - ...</div> <!-- мать учения -->
+                </div>
+                <div class="div-wrapp three">
+                    <div class="saying">Чем дальше в лес, ...</div> <!-- тем больше дров -->
+                    <div class="saying">Семь раз отмерь - ...</div> <!-- один раз отрежь-->
+                    <div class="saying">Не имей сто рублей, а имей ...</div> <!-- сто друзей -->
+                </div>
+            </div>
+            <div class="div_form">
+                <form class="form-saying" id="form-saying">
+                    <input type="text" placeholder="Напиши продолжение" class="input" name="saying">
+                    <button type="submit" class="form-saying_btn" disabled>Готово!</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="task_3 task-wrap">
+            <h2>Составь квадрат в центре</h2>
+            <div class="div-wrapp_qadro">
+                <div class="div_qadro one">
+                    <div id="dQ1" class="dQ dQ1">
+                        <div></div>
+                    </div>
+                    <div id="dQ2" class="dQ dQ2">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="div_qadro two">
+                    <div id="dQ3" class="dQ dQ3">
+                        <div></div>
+                    </div>
+                    <div id="dQ4" class="dQ dQ4">
+                        <div></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="task_4 task-wrap">
+            <h2>Соотнеси фигуры</h2>
+            <div class="wrapp-container">
+                <div class="drop-wrapp">
+                    <div class="drop_circle drop"></div>
+                    <div class="drop_square drop"></div>
+                    <div class="drop_rectangle drop"></div>
+                </div>
+                <div class="main-wrapp сongratulations">
+                    <div class="main_square draggable" draggable="true"></div>
+                    <div class="main_rectangle draggable" draggable="true"></div>
+                    <div class="main_circle draggable" draggable="true"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="task_5 task-wrap">
+            <h2>Что это за цифра?</h2>
+            <div class="number">5</div>
+            <div class="response-wrapp">
+                <div>Пять</div>
+                <div>Четыре</div>
+                <div>Семь</div>
+            </div>
+        </div>
+
+        <div class="task_6 task-wrap">
+            <h2>Соотнести животное и его дом</h2>
+            <div class="house-animal-wrapp">
+                <div class="house-wrapp">
+                    <div class="beehive"><img src="img/Beehive.png" alt="beehive" class="drop-container-task_6"></div>
+                    <div class="dogHouse"> <img src="img/Booth.jpg" alt="dogHouse" class="drop-container-task_6"></div>
+                    <div class="aquarium"> <img src="img/Aquarium.jpg" alt="aquarium" class="drop-container-task_6"></div>
+                    <div class="anthill"> <img src="img/Anthill.jpg" alt="anthill" class="drop-container-task_6"></div>
+                </div>
+                <div class="animal-wrapp">
+                    <img src="img/Ant.jpg" alt="ant" draggable="true" class="draggable-task_6 ant">
+                    <img src="img/Bee.jpg" alt="bee" draggable="true" class="draggable-task_6 bee">
+                    <img src="img/Dog.jpg" alt="dog" draggable="true" class="draggable-task_6 dog">
+                    <img src="img/Fish.jpg" alt="fish" draggable="true" class="draggable-task_6 fish">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <script src="visiting-luntik.js"></script>
+</body>
+
+</html>
